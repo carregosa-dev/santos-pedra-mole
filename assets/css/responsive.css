@@ -1,0 +1,77 @@
+@media (max-width: 1280px) {
+    section {
+    scroll-margin-top: 90px;
+}
+}
+@media (max-width: 820px) {
+    .header .menu-desktop, .header .btn-contato {
+        display: none;
+    }
+    .header .btn-menu-mob {
+        display: block;
+    }
+    .card-container {
+        width: 45%;
+    }
+
+}
+@media (max-width: 780px) {
+    /* Sobre */
+    .about-container {
+        flex-direction: column;
+    }
+    .about-container .item-1 {
+        order: 0;
+    }
+    .about-container .item-1 {
+        order: 1;
+    }
+    /* Contato */
+    .contato .interface {
+        text-align: center;
+    }
+    .contato-txt {
+        margin-bottom: 1em;
+    }
+    .contato-txt,
+    .contato-icon {
+        display: block;
+        width: 100%;
+    }
+    .contato-icon .icon-container {
+        justify-content: space-around;
+    }
+    /* Galeria */
+    .galeria .interface {
+        height: 50dvh;
+    }
+    /* Jogos */
+    section.jogos .interface {
+        flex-direction: column;
+    }
+    .jogos-txt,
+    .jogos-partidas {
+    display: block;
+    width: 100%;
+    }
+    section.jogos .jogos-txt {
+        position: static;
+        text-align: center;
+    }
+    .jogos-partidas .jogos-card {
+        flex-direction: column;
+    }
+    .jogos-partidas .jogos-card {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .galeria {
+        background-attachment: scroll;
+    }
+}
+@media screen and (max-width: 656px) {
+    .card-container {
+        width: 100%;
+    }
+}
